@@ -1,0 +1,40 @@
+The A* algorithm is a simple yet elegant way of efficiently finding the lowest cost path from start to goal.
+
+The A* algorithm is a simple yet elegant way of efficiently finding the lowest cost path from start to goal.
+
+In this exercise, you'll find the lowest cost plan by considering the cost of each partial plan and the value of the heuristic for all possible destinations at each step along the way.
+
+In this exercise, you'll use a Python priority queue, which is a convenient way of maintaing a sorted queue.
+
+The PriorityQueue data structure allows you to quickly and efficiently select the lowest cost 
+
+Your firrst todo in the exercise below is to define a heuristic. 
+You can use the Euclidean or Manhattan distance described in the previous video orr think of another alternative but keep in mind your heuristic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The heuristic function determines the h() value for each cell based on the goal cell and the method chosen to determine it.
+
+
+A* search:  A* search is an extension of the cost search you implemented. 
+A heuristic function is used in addition to the cost penalty.
+Thus if the setup is:
+c is current cost
+g is the cost function
+h is the heuristic function
